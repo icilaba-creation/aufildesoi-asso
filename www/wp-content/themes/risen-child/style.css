@@ -1,0 +1,106 @@
+/*
+Theme Name: Risen Child Theme
+Theme URI: http://churchthemes.com/themes/risen
+Author: churchthemes.com
+Author URI: http://churchthemes.com
+Description: A sample child theme for Risen.
+Copyright: (c) 2012 DreamDolphin Media, LLC
+Template: risen
+Version: 1.1.4
+*/
+
+/*
+To override styles, copy them from the parent theme here, then change the properties.
+You can also add new styles here. See styles/* for overriding the light and dark base styles.
+Note: it is not necessary to @import the parent stylesheet here (see docs for more info)
+*/
+
+.donation-widget-button {
+	text-align: right;
+}
+
+.events-widget-item-title {
+	padding-left: 22px;
+}
+
+.events-widget-item-title.conference {
+	background: url('images/conference.20x20.png') top left no-repeat;
+}
+
+.events-widget-item-title.atelier {
+	background: url('images/atelier.20x20.png') top left no-repeat;
+}
+
+.events-widget-item-title.stage {
+	background: url('images/stage.20x20.png') top left no-repeat;
+}
+
+.events-widget-item-title.formation {
+	background: url('images/formation.20x20.png') top left no-repeat;
+}
+
+.risen_event h1 {
+	padding-left: 35px;
+}
+
+.risen_event h1 a:before {
+	content: "> ";
+}
+
+h1.conference {
+	background: url('images/conference.28x28.png') top left no-repeat;
+}
+
+h1.atelier {
+	background: url('images/atelier.28x28.png') top left no-repeat;
+}
+
+h1.stage {
+	background: url('images/stage.28x28.png') top left no-repeat;
+}
+
+h1.formation {
+	background: url('images/formation.28x28.png') top left no-repeat;
+}
+
+#event-single-page-title {
+	padding-left: 42px;
+}
+
+#event-single-page-title.conference {
+	background: url('images/conference.38x38.png') top left no-repeat;
+}
+
+#event-single-page-title.atelier {
+	background: url('images/atelier.38x38.png') top left no-repeat;
+}
+
+#event-single-page-title.stage {
+	background: url('images/stage.38x38.png') top left no-repeat;
+}
+
+#event-single-page-title.formation {
+	background: url('images/formation.38x38.png') top left no-repeat;
+}
+
+.events-widget-item-venue {
+	font-size: 12px;
+	line-height: 1.4em;
+	font-style: italic;
+}
+
+.page-id-10 #content h4 {
+	font-family: 'Shadows Into Light Two', Georgia, 'Bitstream Vera Serif', 'Times New Roman', Times, cursive;
+}
+
+h4.bureau, h4.origine {
+	margin: 30px 0 10px 0;
+}
+
+p.bureau {
+	margin: 0 0 10px 0;
+}
+
+.event-has-address #event-single-venue {
+	float: none;
+}
