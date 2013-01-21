@@ -27,7 +27,6 @@ function risen_register_widgets() {
 	register_widget( 'Risen_Locations_Widget' );
 	register_widget( 'Risen_Gallery_Widget' );
 	register_widget( 'Risen_Donation_Widget' );
-	register_widget( 'Risen_EventType_Widget' );
 
 }
 
@@ -349,7 +348,7 @@ if ( ! class_exists( 'Risen_Donation_Widget' ) ) {
 				if ( $button_url && ! empty( $instance['button_text'] ) ) :
 				?>
 				<div class="donation-widget-button">
-					<a href="<?php echo esc_url( $button_url ); ?>" target="_blank" class="button"><?php echo esc_html( $instance['button_text'] ); ?></a>
+					<a href="<?php echo esc_url( $button_url ); ?>" class="button"><?php echo esc_html( $instance['button_text'] ); ?></a>
 				</div>
 				<?php endif; ?>
 
